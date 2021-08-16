@@ -30,3 +30,9 @@ The three approaches are **Value-Based**, **Model-Based**, and **Policy-Based**.
 * **Policy-Based**: In this approach we want to directly optimize the policy function without using a value function. The policy defines the agent's behavior at a given time.
 * **Model-Based**: This involves modeling the behavior of the environment. 
 
+Markov Property - the agent only needs the current state to make decisions (the past history of all states and actions is irrelevant).
+
+Observiations Space:
+* **State**: Complete description of the state of the world and no information is hidden.
+* **Observation**: Partial view of the world with some information hidden.
+
